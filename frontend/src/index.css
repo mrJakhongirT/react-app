@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+:root {
+    --pink:#FD4F79;
+    --green:#4AE950;
+    --orange:#FD984F;
+    --yellow:#F1EB4C;
+    --black:#272626;
+    --gray:#8E8D6F;
+}

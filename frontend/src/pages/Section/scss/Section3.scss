@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Montserrat:wght@200&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Section3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+
+    .text-img {
+        display: flex;
+        padding: 0px 0px 0px 70px;
+
+        .text {
+            font-family: 'Montserrat';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 44px;
+            color: #272626;
+        }
+    }
+
+    .Cards {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 30px;
+
+        .Card {
+            .box {
+                width: 284px;
+                height: 427px;
+                padding: 9px;
+                background: #FDFDFD;
+                border-radius: 0px 20px 20px 20px;
+
+                .box-header {
+                    position: relative;
+
+                    .left-text {
+                        position: absolute;
+                        display: flex;
+                        flex-direction: column;
+                        gap: 4px;
+                        left: -8px;
+
+                        .text1 {
+                            padding: 4px 6px;
+                            width: 115px;
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 17px;
+                            color: #FFFFFF;
+                            height: 25px;
+                            background: #FD4F79;
+                            border-radius: 0px 6px 6px 0px;
+                        }
+
+                        .text2 {
+                            padding: 4px 6px;
+                            width: 115px;
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 17px;
+                            color: #FFFFFF;
+                            height: 25px;
+                            background: #4AE950;
+                            border-radius: 0px 6px 6px 0px;
+                        }
+
+                        .text3 {
+                            padding: 4px 6px;
+                            width: 115px;
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 14px;
+                            line-height: 17px;
+                            color: #FFFFFF;
+                            height: 25px;
+                            background: #FD984F;
+                            border-radius: 0px 6px 6px 0px;
+                        }
+                    }
+
+                    .img {
+                        width: 266px;
+                        height: 245px;
+                    }
+
+                    .discount {
+                        position: absolute;
+                        width: 115px;
+                        height: 25px;
+                        bottom: 0;
+                        right: 0;
+                        background: #F1EB4C;
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 14px;
+                        padding: 4px 14px;
+                        line-height: 17px;
+                        color: #7EA048;
+                        border-radius: 6px 0px 0px 6px;
+                    }
+
+                }
+
+                .box-body {
+                    display: flex;
+                    width: 100%;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 4px;
+
+                    .text1 {
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 19px;
+                        line-height: 20px;
+                    }
+
+                    .text2 {
+                        font-style: normal;
+                        font-size: 19px;
+                        font-weight: 500;
+                        line-height: 20px;
+                    }
+                }
+
+                .box-footer {
+                    display: flex;
+                    justify-content: space-between;
+                    padding: 48px 20px;
+
+                    .price {
+                        display: flex;
+                        flex-direction: column;
+
+                        .orginal-price {
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 13px;
+                            line-height: 16px;
+                            text-decoration-line: line-through;
+                            color: #8E8D6F;
+                        }
+
+                        .priceWithDiscount {
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #7EA048;
+                        }
+                    }
+
+                    .button {
+                        button {
+                            padding: 9px 30px;
+                            color: #ffffff;
+                            font-family: 'Lato';
+                            border: none;
+                            background: #D7537A;
+                            border-radius: 20px;
+                            font-family: 'Lato';
+                            font-style: normal;
+                            font-weight: 600;
+                            font-size: 18px;
+                            line-height: 22px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 500px) {
+    .Section3{
+        display: none;
+    }
+}

@@ -1,0 +1,703 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.Section2 {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 13px 90px;
+
+    .catelog {
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        color: #272626;
+    }
+
+    .desktop-boxes {
+        display: flex;
+        gap: 20px;
+
+
+        .left-box {
+            display: flex;
+            gap: 20px;
+
+            .card {
+                display: flex;
+                flex-direction: column;
+                gap: 23px;
+
+                .first-child-box {
+                    position: relative;
+
+                    .flower1 {
+                        width: 280px;
+                        height: 358px;
+                    }
+
+                    .card {
+                        position: absolute;
+                        bottom: 0;
+                        width: 280px;
+                        height: 95px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background: rgba(255, 248, 245, 0.85);
+                        border-radius: 10px 10px 0px 0px;
+
+
+                        // text
+                        .text {
+                            font-weight: 600;
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #272626;
+                        }
+
+                        // patterns
+                        .left-pattern {
+                            padding: 4px;
+                            display: flex;
+                            flex-direction: column;
+                            position: absolute;
+                            left: 0;
+                            gap: 8px;
+
+                            .left-first-pattern {
+                                width: 39px;
+                                height: 39px;
+
+                            }
+
+                            .left-last-pattern {
+                                width: 39px;
+                                height: 39px;
+                            }
+
+                        }
+
+                        .rigth-pattern {
+                            padding: 4px;
+                            display: flex;
+                            flex-direction: column;
+                            position: absolute;
+                            right: 0;
+                            gap: 8px;
+
+                            .rigth-first-pattern {
+                                width: 39px;
+                                height: 39px;
+                            }
+
+                            .rigth-last-pattern {
+                                width: 39px;
+                                height: 39px;
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            .bottom-box {
+                display: flex;
+                flex-direction: column;
+
+                .first-child-box {
+                    position: relative;
+
+                    .flower1 {
+                        width: 280px;
+                        height: 358px;
+                    }
+
+                    .card {
+                        position: absolute;
+                        bottom: 0;
+                        width: 280px;
+                        height: 95px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background: rgba(255, 248, 245, 0.85);
+                        border-radius: 10px 10px 0px 0px;
+
+
+                        // text
+                        .text {
+                            font-weight: 600;
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #272626;
+                        }
+
+                        // patterns
+                        .left-pattern {
+                            padding: 4px;
+                            display: flex;
+                            flex-direction: column;
+                            position: absolute;
+                            left: 0;
+                            gap: 8px;
+
+                            .left-first-pattern {
+                                width: 39px;
+                                height: 39px;
+
+                            }
+
+                            .left-last-pattern {
+                                width: 39px;
+                                height: 39px;
+                            }
+
+                        }
+
+                        .rigth-pattern {
+                            padding: 4px;
+                            display: flex;
+                            flex-direction: column;
+                            position: absolute;
+                            right: 0;
+                            gap: 8px;
+
+                            .rigth-first-pattern {
+                                width: 39px;
+                                height: 39px;
+                            }
+
+                            .rigth-last-pattern {
+                                width: 39px;
+                                height: 39px;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .center-box {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .top-card {
+                position: relative;
+
+                .flower {
+                    width: 575px;
+                    height: 210px;
+                }
+
+                .card {
+                    padding: 9px;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 210px;
+                    height: 100%;
+                    background: rgba(255, 248, 245, 0.85);
+
+                    .text {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 20px;
+                        text-align: center;
+                        color: #272626;
+                    }
+
+                    //patterns
+                    .top-pattern {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 70px;
+                        position: absolute;
+                        left: 0;
+
+                        .left-first-pattern {
+                            width: 57px;
+                            height: 57px;
+                        }
+
+                        .left-last-pattern {
+                            width: 57px;
+                            height: 57px;
+                        }
+                    }
+
+                    .bottom-pattern {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 70px;
+                        right: 0;
+                        position: absolute;
+
+                        .rigth-first-pattern {
+                            width: 57px;
+                            height: 57px;
+                        }
+
+                        .rigth-last-pattern {
+                            width: 57px;
+                            height: 57px;
+                        }
+                    }
+                }
+            }
+
+            .center-card {
+                position: relative;
+
+                .flower {
+                    width: 575px;
+                    height: 260px;
+                }
+
+                .card {
+                    padding: 9px;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 200px;
+                    height: 100%;
+                    background: rgba(255, 248, 245, 0.85);
+
+                    .text {
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 16px;
+                        line-height: 20px;
+                        text-align: center;
+                        color: #272626;
+                    }
+
+                    //patterns
+                    .top-pattern {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 120px;
+                        position: absolute;
+                        left: 0;
+
+                        .left-first-pattern {
+                            width: 57px;
+                            height: 57px;
+                        }
+
+                        .left-last-pattern {
+                            width: 57px;
+                            height: 57px;
+                        }
+                    }
+
+                    .bottom-pattern {
+                        display: flex;
+                        flex-direction: column;
+                        gap: 120px;
+                        right: 0;
+                        position: absolute;
+
+                        .rigth-first-pattern {
+                            width: 57px;
+                            height: 57px;
+                        }
+
+                        .rigth-last-pattern {
+                            width: 57px;
+                            height: 57px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .rigth-box {
+            display: flex;
+            gap: 20px;
+
+            .card {
+                display: flex;
+                flex-direction: column;
+                gap: 23px;
+
+                .first-child-box {
+                    position: relative;
+
+                    .flower1 {
+                        width: 280px;
+                        height: 358px;
+                    }
+
+                    .card {
+                        position: absolute;
+                        bottom: 0;
+                        width: 280px;
+                        height: 95px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background: rgba(255, 248, 245, 0.85);
+                        border-radius: 10px 10px 0px 0px;
+
+
+                        // text
+                        .text {
+                            font-weight: 600;
+                            font-family: 'Montserrat';
+                            font-style: normal;
+                            font-size: 16px;
+                            line-height: 20px;
+                            color: #272626;
+                        }
+
+                        // patterns
+                        .left-pattern {
+                            padding: 4px;
+                            display: flex;
+                            flex-direction: column;
+                            position: absolute;
+                            left: 0;
+                            gap: 8px;
+
+                            .left-first-pattern {
+                                width: 39px;
+                                height: 39px;
+
+                            }
+
+                            .left-last-pattern {
+                                width: 39px;
+                                height: 39px;
+                            }
+
+                        }
+
+                        .rigth-pattern {
+                            padding: 4px;
+                            display: flex;
+                            flex-direction: column;
+                            position: absolute;
+                            right: 0;
+                            gap: 8px;
+
+                            .rigth-first-pattern {
+                                width: 39px;
+                                height: 39px;
+                            }
+
+                            .rigth-last-pattern {
+                                width: 39px;
+                                height: 39px;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+    .mobile-boxes {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .Section2 {
+        width: 100%;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .catelog {
+            font-family: 'Montserrat';
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 22px;
+            color: #272626;
+            text-align: center;
+        }
+
+        .desktop-boxes {
+            display: none;
+        }
+
+        .mobile-boxes {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .first-card {
+                display: flex;
+                gap: 10px;
+
+                .card-image {
+                    width: 155px;
+                    height: 169px;
+                    position: relative;
+
+                    .img {
+                        width: 155px;
+                        height: 169px;
+                    }
+
+                    .card {
+                        position: absolute;
+                        font-size: 9px;
+                        width: 155px;
+                        display: flex;
+                        bottom: 0;
+                        justify-content: space-between;
+                        align-items: center;
+                        height: 48.07px;
+                        background: rgba(255, 248, 245, 0.85);
+                        border-radius: 10px 10px 0px 0px;
+
+                        .left-pattern {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 2px;
+
+                            .left-first-pattern {
+                                width: 19.75px;
+                                height: 19.73px;
+                            }
+
+                            .left-last-pattern {
+                                width: 19.75px;
+                                height: 19.73px;
+                            }
+                        }
+
+                        .rigth-pattern {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 2px;
+
+                            .rigth-first-pattern {
+                                width: 19.75px;
+                                height: 19.73px;
+                            }
+
+                            .rigth-last-pattern {
+                                width: 19.75px;
+                                height: 19.73px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .last-card {
+                display: flex;
+                gap: 10px;
+
+                .card-image {
+                    position: relative;
+                    width: 155px;
+                    height: 169px;
+
+                    .img {
+                        width: 155px;
+                        height: 169px;
+                    }
+
+                    .card {
+                        position: absolute;
+                        font-size: 9px;
+
+                        width: 155px;
+                        display: flex;
+                        bottom: 0;
+                        justify-content: space-between;
+                        align-items: center;
+                        height: 48.07px;
+                        background: rgba(255, 248, 245, 0.85);
+                        border-radius: 10px 10px 0px 0px;
+
+                        .left-pattern {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 2px;
+
+                            .left-first-pattern {
+                                width: 19.75px;
+                                height: 19.73px;
+                            }
+
+                            .left-last-pattern {
+                                width: 19.75px;
+                                height: 19.73px;
+                            }
+                        }
+
+                        .rigth-pattern {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 2px;
+
+                            .rigth-first-pattern {
+                                width: 19.75px;
+                                height: 19.73px;
+                            }
+
+                            .rigth-last-pattern {
+                                width: 19.75px;
+                                height: 19.73px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .third-card {
+                display: flex;
+                gap: 10px;
+
+                .card-image {
+                    position: relative;
+                    width: 155px;
+                    height: 169px;
+
+                    .img {
+                        width: 155px;
+                        height: 169px;
+                    }
+
+                    .card {
+                        position: absolute;
+                        width: 155px;
+                        font-size: 9px;
+
+                        display: flex;
+                        bottom: 0;
+                        justify-content: space-between;
+                        align-items: center;
+                        height: 48.07px;
+                        background: rgba(255, 248, 245, 0.85);
+                        border-radius: 10px 10px 0px 0px;
+
+                        .left-pattern {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 2px;
+
+                            .left-first-pattern {
+                                width: 19.75px;
+                                height: 19.73px;
+                            }
+
+                            .left-last-pattern {
+                                width: 19.75px;
+                                height: 19.73px;
+                            }
+                        }
+
+                        .rigth-pattern {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 2px;
+
+                            .rigth-first-pattern {
+                                width: 19.75px;
+                                height: 19.73px;
+                            }
+
+                            .rigth-last-pattern {
+                                width: 19.75px;
+                                height: 19.73px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .fourth {
+                display: flex;
+                gap: 10px;
+                justify-content: center;
+
+                .card-image {
+                    width: 155px;
+                    height: 169px;
+                    position: relative;
+
+                    .img {
+                        width: 155px;
+                        height: 169px;
+                    }
+
+                    .card {
+                        position: absolute;
+                        width: 155px;
+                        display: flex;
+                        bottom: 0;
+                        font-size: 9px;
+                        justify-content: space-between;
+                        align-items: center;
+                        height: 48.07px;
+                        background: rgba(255, 248, 245, 0.85);
+                        border-radius: 10px 10px 0px 0px;
+
+                        .left-pattern {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 2px;
+
+                            .left-first-pattern {
+                                width: 19.75px;
+                                height: 19.73px;
+                            }
+
+                            .left-last-pattern {
+                                width: 19.75px;
+                                height: 19.73px;
+                            }
+                        }
+
+                        .rigth-pattern {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 2px;
+
+                            .rigth-first-pattern {
+                                width: 19.75px;
+                                height: 19.73px;
+                            }
+
+                            .rigth-last-pattern {
+                                width: 19.75px;
+                                height: 19.73px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+}

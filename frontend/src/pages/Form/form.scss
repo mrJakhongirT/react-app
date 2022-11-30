@@ -1,0 +1,108 @@
+.formClass{
+    max-width:1520px;
+    height:1001px;
+    margin:45px auto;
+    background:#FCEFE4;
+    ;
+    .formHeader{
+        text-align:center;
+        padding: 60px 0 60px 0;
+        p{
+            font-weight: 600;
+            font-size: 48px;
+        }
+    }
+    .formInputs{
+        .leftForm{
+            input{
+             width: 770px;
+             border-radius: 45px;
+             height: 90px;
+                }      
+                input::placeholder{
+                    font-size: 36px;
+                    line-height: 119.18%;
+                    color: rgba(0, 0, 0, 0.54);
+                    padding: 24px;
+                }      
+                textarea{
+                    border-radius:20px;
+                    height: 378px;
+                }
+                textarea::placeholder{
+                    font-size: 36px;
+                    line-height: 119.18%;
+                    padding: 25px;
+
+                }
+      
+        }
+
+      }
+      .formBtn{
+        margin-top: 50px;
+        width: 100%;
+        text-align: center;
+        button{
+            width: 275px;
+            height: 74px;
+            background: #D7537A;
+            border-radius: 37px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 29px;
+            color: #FFFFFF;
+        }
+      }
+
+}
+
+@media (max-width:500px){
+    .formClass{
+        position: relative;
+        width: 100%;
+        height: 499px;
+        background:#FCEFE4;
+        .formHeader{
+                p{
+                    font-weight: 600;
+                    font-size: 18px;
+                }
+        }
+        .formInputs{
+            background:#FCEFE4;
+            .leftForm{
+                background:#FCEFE4;
+                input{
+                    max-width: 319px;
+                    height: 30px;
+                }
+                input::placeholder{
+                    font-size: 10px;
+                    padding: 9px 20px 9px 20px;
+                }     
+                textarea{
+                    height: 104px;;
+                }
+                textarea::placeholder{
+                    font-size: 10px;
+                }
+            }
+            .rigthForm{
+                display: none;
+            }
+        }
+        .formBtn{
+            width: 100%;
+            background:#FCEFE4;
+            button{
+                height: 41px;
+                width: 151px;
+                font-weight: 600;
+                font-size: 16px;
+                color:#FFFFFF;
+
+            }
+        }
+    }
+}
